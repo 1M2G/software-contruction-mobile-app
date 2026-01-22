@@ -50,5 +50,18 @@ Real-time alerts for new messages, calls, and app updates
 
 
 ## Part B: Thinking Behind the Scenes.
+For each of the above features, the following software components are likely involved:
 
+**1. User Authentication & Login**
+**UI:** Phone number input screens, OTP verification screens
+
+**Business Logic:** Account validation, session management
+
+**Network / APIs:** OTP verification servers, authentication APIs
+
+**Data Storage:** User profiles and authentication tokens
+
+**Internet Required:** Yes
+
+**If Network Is Slow/Unavailable:** Login delays or failure to verify account
 
