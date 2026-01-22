@@ -9,3 +9,10 @@ Software Construction assignment on identifying what is behind a software applic
 |Bachawa Wangolo|*M23B23/042*| Documentation Lead |
 |Mucunguzi Godfrey|*M23B23/025*| Systems Thinker |
 |Opi Timothy| *S23B23/*  | Risk & Change Analyst |
+
+#### Part A: Understanding the App.
+
+
+#### Part B: Thinking Behind the Scenes.
+
+
