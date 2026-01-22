@@ -14,7 +14,7 @@ Software Construction assignment on identifying what is behind a software applic
 1. App Overview
 What problem does the app solve?
 
-Before WhatsApp, communication—especially international and long-distance—relied heavily on SMS and traditional phone calls, 
+Before WhatsApp, communication especially international and long-distance relied heavily on SMS and traditional phone calls, 
 which were often expensive and unreliable. WhatsApp was developed to address this problem by enabling real-time messaging and calling 
 over the internet. This allows users to communicate instantly, securely, and at a low cost, regardless of their geographic location.
 
