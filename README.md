@@ -65,9 +65,9 @@ For each of the above features, the following software components are likely inv
 
 - **If Network Is Slow/Unavailable:** Login delays or failure to verify account
   
-## Part C: Change and Maintainability
+## Part C: Change and Maintainability.
 
-**Selected Change Scenario:** Add Offline Support
+**Selected Change Scenario:** Add Offline Support.
 
 **Which parts of the app would need changes?**
 - Messaging system (local storage and synchronization logic)
@@ -84,7 +84,7 @@ For each of the above features, the following software components are likely inv
 Offline support introduces complexity in data consistency, conflict resolution, and synchronization across multiple devices. Ensuring messages remain secure and correctly ordered after reconnecting is technically challenging.
 
 
-## Part D: Software Construction Challenges
+## Part D: Software Construction Challenges.
 
 - **Performance and Scalability** – Supporting millions of concurrent users worldwide
 - **Security and Data Privacy** – Maintaining end‑to‑end encryption and user trust
