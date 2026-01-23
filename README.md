@@ -6,9 +6,9 @@ Software Construction assignment on identifying what is behind a software applic
 |------|-----|------|
 | Abaho Joy | *M23B23/001* | Coordinator  |
 | Anguyi Netwon | *S23B23/071*  | App Analyst |
-|Bachawa Wangolo|*M23B23/042*| Documentation Lead |
+|Bachawa Wangolo|*M23B23/042*| Risk & Change Analyst |
 |Mucunguzi Godfrey|*M23B23/025*| Systems Thinker |
-|Opi Timothy| *S23B23/*  | Risk & Change Analyst |
+|Opi Timothy| *S23B23/*  | Documentation Lead |
 
 ## Part A: Understanding the App.
 
@@ -64,4 +64,22 @@ For each of the above features, the following software components are likely inv
 - **Internet Required:** Yes
 
 - **If Network Is Slow/Unavailable:** Login delays or failure to verify account
+  
+## Part C: Change and Maintainability
+
+**Selected Change Scenario:** Add Offline Support
+
+**Which parts of the app would need changes?**
+- Messaging system (local storage and synchronization logic)
+- Data storage layer (caching messages and media offline)
+- Network handling logic (syncing data when connection is restored)
+  
+**What existing features could break?**
+- Message ordering and delivery status
+- Media uploads and downloads
+- Group chat synchronization
+  
+**Why would this change be difficult to implement?**
+
+Offline support introduces complexity in data consistency, conflict resolution, and synchronization across multiple devices. Ensuring messages remain secure and correctly ordered after reconnecting is technically challenging.
 
