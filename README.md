@@ -83,3 +83,12 @@ For each of the above features, the following software components are likely inv
 
 Offline support introduces complexity in data consistency, conflict resolution, and synchronization across multiple devices. Ensuring messages remain secure and correctly ordered after reconnecting is technically challenging.
 
+
+## Part D: Software Construction Challenges
+
+- **Performance and Scalability** – Supporting millions of concurrent users worldwide
+- **Security and Data Privacy** – Maintaining end‑to‑end encryption and user trust
+- **Reliability Under Poor Networks** – Handling unstable or slow internet connections
+- **Testing Across Devices and OS Versions** – Ensuring consistent behavior on many devices
+- **Maintainability and Feature Evolution** – Adding new features without breaking existing ones
+
