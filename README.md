@@ -8,7 +8,7 @@ Software Construction assignment on identifying what is behind a software applic
 | Anguyi Netwon | *S23B23/071*  | App Analyst |
 |Bachawa Wangolo|*M23B23/042*| Risk & Change Analyst |
 |Mucunguzi Godfrey|*M23B23/025*| Systems Thinker |
-|Opi Timothy| *S23B23/*  | Documentation Lead |
+|Opi Timothy| *S23B23/086*  | Documentation Lead |
 
 ## Part A: Understanding the App.
 
