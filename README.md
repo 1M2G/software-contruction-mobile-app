@@ -64,7 +64,72 @@ For each of the above features, the following software components are likely inv
 - **Internet Required:** Yes.
 
 - **If Network Is Slow/Unavailable:** Login delays or failure to verify account.
-  
+
+  **2. Messaging**
+**UI:** Chat screens, emoji keyboard, media preview
+
+**Business Logic:** Message formatting, encryption, delivery status (sent, delivered, read)
+
+**Network / APIs:** Messaging servers, message routing services
+
+**Data Storage:** Local message cache and cloud backups
+
+**Internet Required:** Yes (limited offline drafting possible)
+
+**If Network Is Slow/Unavailable:** Messages are queued and sent later
+
+**3. Voice and Video Calls**
+**UI:** Call screens, mute/video controls
+
+**Business Logic:** Call setup, audio/video stream handling
+
+**Network / APIs:** Real‑time communication servers (VoIP)
+
+**Data Storage:** Minimal (call logs)
+
+**Internet Required:** Yes (strong connection needed)
+
+**If Network Is Slow/Unavailable:** Poor call quality, dropped calls
+
+**4. Group Chats**
+**UI:** Group chat screens, participant lists
+
+**Business Logic:** Group membership, admin roles, message broadcasting
+
+**Network / APIs:** Group message synchronization servers
+
+**Data Storage:** Group metadata and message history
+
+**Internet Required:** Yes
+
+**If Network Is Slow/Unavailable:** Delayed message delivery to group members
+
+**5. Document Sharing**
+**UI:** File picker, download previews
+
+**Business Logic:** File validation, size limits
+
+**Network / APIs:** File upload/download servers
+
+**Data Storage:** Cloud storage and local device storage
+
+**Internet Required:** Yes
+
+**If Network Is Slow/Unavailable:** Upload/download failures or delays
+
+**6. Notifications**
+**UI:** Push notifications on device
+
+**Business Logic:** Notification triggers and priority handling
+
+**Network / APIs:** Push notification services
+
+**Data Storage:** Notification preferences
+
+**Internet Required:** Yes
+
+**If Network Is Slow/Unavailable:** Delayed or missing notifications
+
 ## Part C: Change and Maintainability.
 
 **Selected Change Scenario:** Add Offline Support.
