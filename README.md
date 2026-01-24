@@ -13,9 +13,7 @@ Software Construction assignment on identifying what is behind a software applic
 ## Part A: Understanding the App.
 
 **What problem does the app solve?**
-<br> Before WhatsApp, communication, especially international and long-distance, relied heavily on SMS and traditional phone calls, 
-which were often expensive and unreliable. WhatsApp was developed to address this problem by enabling real-time messaging and calling 
-over the internet. This allows users to communicate instantly, securely, and at a low cost, regardless of their geographic location.
+<br> Before WhatsApp, communication, especially international and long-distance, relied heavily on SMS and traditional phone calls, which were often expensive and unreliable. WhatsApp was developed to address this problem by enabling real-time messaging and calling over the internet. This allows users to communicate instantly, securely, and at a low cost, regardless of their geographic location.
 
 **Who are its primary users?**
 <br>WhatsApp serves a wide range of users, including:
@@ -54,80 +52,50 @@ For each of the above features, the following software components are likely inv
 
 **1. User Authentication & Login.**
 - **UI:** Phone number input screens, OTP verification screens.
-
 - **Business Logic:** Account validation, session management.
-
 - **Network / APIs:** OTP verification servers, authentication APIs.
-
 - **Data Storage:** User profiles and authentication tokens.
-
 - **Internet Required:** Yes.
-
 - **If Network Is Slow/Unavailable:** Login delays or failure to verify account.
 
   **2. Messaging**
 - **UI:** Chat screens, emoji keyboard, media preview
-
 - **Business Logic:** Message formatting, encryption, delivery status (sent, delivered, read)
-
 - **Network / APIs:** Messaging servers, message routing services
-
 - **Data Storage:** Local message cache and cloud backups
-
 - **Internet Required:** Yes (limited offline drafting possible)
-
 - **If Network Is Slow/Unavailable:** Messages are queued and sent later
 
 **3. Voice and Video Calls**
 - **UI:** Call screens, mute/video controls
-
 - **Business Logic:** Call setup, audio/video stream handling
-
 - **Network / APIs:** Real‑time communication servers (VoIP)
-
 - **Data Storage:** Minimal (call logs)
-
 - **Internet Required:** Yes (strong connection needed)
-
 - **If Network Is Slow/Unavailable:** Poor call quality, dropped calls
 
 **4. Group Chats**
 - **UI:** Group chat screens, participant lists
-
 - **Business Logic:** Group membership, admin roles, message broadcasting
-
 - **Network / APIs:** Group message synchronization servers
-
 - **Data Storage:** Group metadata and message history
-
 - **Internet Required:** Yes
-
 - **If Network Is Slow/Unavailable:** Delayed message delivery to group members
 
 **5. Document Sharing**
 - **UI:** File picker, download previews
-
 - **Business Logic:** File validation, size limits
-
 - **Network / APIs:** File upload/download servers
-
 - **Data Storage:** Cloud storage and local device storage
-
 - **Internet Required:** Yes
-
 - **If Network Is Slow/Unavailable:** Upload/download failures or delays
 
 **6. Notifications**
 - **UI:** Push notifications on device
-
 - **Business Logic:** Notification triggers and priority handling
-
 - **Network / APIs:** Push notification services
-
 - **Data Storage:** Notification preferences
-
 - **Internet Required:** Yes
-
 - **If Network Is Slow/Unavailable:** Delayed or missing notifications
 
 ## Part C: Change and Maintainability.
@@ -137,7 +105,7 @@ For each of the above features, the following software components are likely inv
 **Which parts of the app would need changes?**
 - Messaging system (local storage and synchronization logic).
 - Data storage layer (caching messages and media offline).
-- Network handling logic (syncing data when connection is restored).
+- Network handling logic (syncing data when the connection is restored).
   
 **What existing features could break?**
 - Message ordering and delivery status.
