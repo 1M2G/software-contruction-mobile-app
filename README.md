@@ -58,7 +58,7 @@ For each of the above features, the following software components are likely inv
 - **Internet Required:** Yes.
 - **If Network Is Slow/Unavailable:** Login delays or failure to verify account.
 
-  **2. Messaging**
+**2. Messaging**
 - **UI:** Chat screens, emoji keyboard, media preview
 - **Business Logic:** Message formatting, encryption, delivery status (sent, delivered, read)
 - **Network / APIs:** Messaging servers, message routing services
