@@ -1,15 +1,6 @@
 # Behind-the-App
 Software Construction assignment on identifying what is behind a software application using **WHATSAPP** as our case study.
 
-**Group Members**
-| Name | Reg Number | 
-|------|-----|
-| Abaho Joy | *M23B23/001* | 
-| Anguyi Netwon | *S23B23/071*  | 
-|Bachawa Wangolo|*M23B23/042*| 
-|Mucunguzi Godfrey|*M23B23/025*| 
-|Opi Timothy| *S23B23/086*  |
-
 ## Part A: Understanding the App.
 
 **What problem does the app solve?**
