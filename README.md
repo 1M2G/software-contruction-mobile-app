@@ -2,13 +2,13 @@
 Software Construction assignment on identifying what is behind a software application using **WHATSAPP** as our case study.
 
 **Group Members**
-| Name | Reg Number | Role |
-|------|-----|------|
-| Abaho Joy | *M23B23/001* | Coordinator  |
-| Anguyi Netwon | *S23B23/071*  | App Analyst |
-|Bachawa Wangolo|*M23B23/042*| Risk & Change Analyst |
-|Mucunguzi Godfrey|*M23B23/025*| Systems Thinker |
-|Opi Timothy| *S23B23/086*  | Documentation Lead |
+| Name | Reg Number | 
+|------|-----|
+| Abaho Joy | *M23B23/001* | 
+| Anguyi Netwon | *S23B23/071*  | 
+|Bachawa Wangolo|*M23B23/042*| 
+|Mucunguzi Godfrey|*M23B23/025*| 
+|Opi Timothy| *S23B23/086*  |
 
 ## Part A: Understanding the App.
 
@@ -124,4 +124,26 @@ Offline support introduces complexity in data consistency, conflict resolution, 
 - **Reliability Under Poor Networks** – Handling unstable or slow internet connections.
 - **Testing Across Devices and OS Versions** – Ensuring consistent behavior on many devices.
 - **Maintainability and Feature Evolution** – Adding new features without breaking existing ones.
+
+## Part E: Group Reflection. 
+
+**What surprised our group most about the complexity behind this app?**
+- The amount of backend infrastructure required to support real‑time, secure communication at global scale.
+  
+**Why is writing “working code” not enough for software systems at this scale?**
+- Because large systems must be maintainable, scalable, secure, and reliable over many years and under constant change.
+  
+**What we learnt about teamwork from this exercise?**
+- Effective software construction requires collaboration, shared understanding, and clear communication among team members.
+
+## Group Contributions
+
+| Name | Reg Number | Role |
+|------|-----|------|
+|Abaho Joy | *M23B23/001* | Coordinator  |
+|Anguyi Netwon | *S23B23/071*  | App Analyst |
+|Bachawa Wangolo|*M23B23/042*| Risk & Change Analyst |
+|Mucunguzi Godfrey|*M23B23/025*| Systems Thinker |
+|Opi Timothy| *S23B23/086*  | Documentation Lead |
+
 
